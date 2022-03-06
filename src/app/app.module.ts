@@ -62,7 +62,7 @@ import { ZippyComponent } from "./zippy/zippy.component";
     RouterModule.forRoot([
       { path: "", component: HomeComponent },
       { path: "followers", component: GithubFollowersComponent },
-      { path: "followers/:username", component: GithubProfileComponent },
+      { path: "followers/:id/:username", component: GithubProfileComponent },
       { path: "posts", component: PostsComponent },
       { path: "**", component: NotFoundComponent },
     ]),
